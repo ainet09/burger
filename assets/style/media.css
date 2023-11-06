@@ -1,0 +1,234 @@
+@media(max-width:1200px) {
+    .menu__card{
+        height: 300px;
+    }
+    .menucard__text{
+        font-size: 16px;
+    }
+}
+@media(max-width:995px) {
+    .menucard__image{
+        height: auto;
+    }
+     .menu__card{
+        height: 250px;
+    }
+    .menucard__text{
+        font-size: 14px;
+    }
+    .korusel{
+        height: auto;
+    }
+    .welcom__title{
+        font-size: 54px;
+    }
+    .welcome{
+        width: 300px;
+        height: 150px;
+    }
+    .about__iteam{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-right: 15px;
+    }
+    .about__iag{
+        width: 100%;
+        height: auto;
+    }
+    .about__text{
+        margin-top: 15px;
+        width: 80%;
+        height: auto;
+    }
+    .events{
+        flex-direction: column;
+    }
+    .events__iteam{
+        margin-top: 15px;
+        width: auto;
+    }
+    .reserver{
+        display: none;
+    }
+    .location__item{
+        margin-top: 140px;
+        padding: 0;
+    }
+    .location__page{
+        flex-direction: column;
+        gap: 15px;
+        padding:15px;
+    }
+    .location__bin{
+        width: 100%;
+        height: auto;
+    }
+    .location__text{
+        margin-left: 0;
+        text-align: center
+        ;display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:770px) {
+    
+    .nav{
+        flex-direction: column;
+    }
+    .header{
+        margin-top: 140px;
+    }
+    .welcom__title{
+        font-size: 32px;
+    }
+    .welcome{
+        width: 250px;
+        height: 100px;
+        margin-top: -100px;
+    }
+    .collect__title{
+        font-size: 16px;
+    }
+    .menu__title{
+        font-size: 54px;
+        width: 400px;
+        height: 150px;
+        border-left-width: 50px;
+        border-right-width: 50px;
+    }
+    .menu__fon{
+        height: 350px;
+    }
+    .menu__card{
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 256px !important;
+        height: auto !important;
+        margin: 15px;
+       
+    }
+    .menucard__text{
+        font-size: 10px;
+    }
+    .menucard__title{
+        font-size: 18px;
+    }
+    .menucard__price{
+        font-size: 18px;
+    }
+    .menucard__image{
+        width: 100%;
+        height: auto;
+    }
+    .menucard__box{
+        width: 100%;
+        height: auto;
+    }
+    .menu__iteam{
+    display: flex;
+    flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .palov__title_bg{
+        font-size: 36px;
+        padding: 18px 26px;
+    }
+    .palov__nation{
+        font-size: 36px;
+    }
+    .header__palov_bg{
+        height: 300px;
+        margin-top: 140px;
+    }   .location__item{
+        margin-top: 150px;
+    }
+}
+@media(max-width:565px) {
+    .list{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .header{
+        margin-top: 160px;
+    }
+    .menu__title{
+        font-size: 34px;
+        width: 300px;
+        height: 100px;
+        border-left-width: 30px;
+        border-right-width: 30px;
+    }
+    .menu__fon{
+        height: 250px;
+    }
+    .palov__title_bg{
+        font-size: 32px;
+        padding: 18px 26px;
+    }
+    .palov__nation{
+        font-size: 32px;
+    }
+    .header__palov_bg{
+        height: 400px;
+        margin-top: 140px;
+    }
+}
+@media(max-width:476px) {
+    .footer__iteam{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .palov__title_bg{
+        font-size: 25px;
+        padding: 18px 26px;
+    }
+    .palov__nation{
+        font-size: 25px;
+    }
+    .header__palov_bg{
+        height: 300px;
+        margin-top: 160px;
+    }
+    .input__num  {
+        width: 100% !important;
+        height: 45px;
+        
+    }
+    .date__stile  {
+        width: 100% !important;
+          margin-top: 30px;
+          height: 45px;
+    }
+    .date__st{
+        height: 45px;
+    margin: 0 !important;   
+    width: 100% !important; 
+    }
+    .input__numm {
+        width: 100% !important;
+        height: 45px;
+        
+    }
+    .events__title{
+        font-size: 14px;
+        padding: 20px 60px;
+        margin-bottom: -25px;
+    }
+    .order{
+        padding: 30px;
+        padding-top: 50px;
+        width: 100% !important;
+        margin: 0 15px !important;
+    }
+    .location__item{
+        margin-top: 180px;
+    }
+  
+}
+
